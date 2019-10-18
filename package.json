@@ -1,5 +1,5 @@
 {
-  "name": "ref-struct",
+  "name": "@gpii/ref-struct",
   "description": "Create ABI-compliant \"struct\" instances on top of Buffers",
   "keywords": [
     "struct",
@@ -13,7 +13,7 @@
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/ref-struct.git"
+    "url": "git://github.com/GPII/ref-struct.git"
   },
   "main": "./lib/struct.js",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "debug": "4",
-    "ref": "javihernandez/ref#node-12"
+    "@gpii/ref": "2.0.0"
   },
   "devDependencies": {
     "bindings": "~1.5.0",
